@@ -87,7 +87,7 @@ db.sqlite3-journal
 media
 settings.py
 
-venv/
+PythonProject/venv/
 
 .env
 
