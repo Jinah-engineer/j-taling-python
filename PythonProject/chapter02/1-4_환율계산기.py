@@ -24,7 +24,7 @@ soup = BeautifulSoup(code, "html.parser")
 price = soup.select("span.value")
 
 # float
-# replace 활용하기기
+# replace 활용하기
 price = float(price[menu - 1].string.replace(",", ""))
 print(price * money)
 
